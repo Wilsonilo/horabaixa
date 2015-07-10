@@ -1,6 +1,24 @@
-*/config/development
-*/logs/log-*.php
-*/logs/!index.html
-*/cache/*
-*/cache/!index.html
-*/cache/!.htaccess
+# Specifies intentionally untracked files to ignore when using Git
+
+# Cordova & Ionic files
+
+hooks/*
+platforms/
+plugins/
+node_modules/
+
+bower.json
+config.xml
+gulpfile.js
+ionic.project
+package.json
+
+# Development files
+
+*.keystore
+*.sw*
+
+.remote-sync.json
+sftp-config.json
+Thumbs.db
+Icon
